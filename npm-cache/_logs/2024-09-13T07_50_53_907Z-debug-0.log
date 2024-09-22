@@ -1,0 +1,54 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.3
+2 info using node@v20.15.0
+3 silly config load:file:C:\Users\DELL\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:E:\Shadow Fox\sproject--2\.npmrc
+5 silly config load:file:C:\Users\DELL\.npmrc
+6 silly config load:file:C:\Users\DELL\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm cache clear
+8 verbose argv "cache" "clear"
+9 verbose logfile logs-max:10 dir:C:\Users\DELL\AppData\Local\npm-cache\_logs\2024-09-13T07_50_53_907Z-
+10 verbose logfile C:\Users\DELL\AppData\Local\npm-cache\_logs\2024-09-13T07_50_53_907Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose stack Error: As of npm@5, the npm cache self-heals from corruption issues
+12 verbose stack   by treating integrity mismatches as cache misses.  As a result,
+12 verbose stack   data extracted from the cache is guaranteed to be valid.  If you
+12 verbose stack   want to make sure everything is consistent, use `npm cache verify`
+12 verbose stack   instead.  Deleting the cache can only make npm go slower, and is
+12 verbose stack   not likely to correct any problems you may be encountering!
+12 verbose stack
+12 verbose stack   On the other hand, if you're debugging an issue with the installer,
+12 verbose stack   or race conditions that depend on the timing of writing to an empty
+12 verbose stack   cache, you can use `npm install --cache /tmp/empty-cache` to use a
+12 verbose stack   temporary cache instead of nuking the actual one.
+12 verbose stack
+12 verbose stack   If you're sure you want to delete the entire cache, rerun this command
+12 verbose stack   with --force.
+12 verbose stack     at Cache.clean (C:\Users\DELL\AppData\Roaming\npm\node_modules\npm\lib\commands\cache.js:113:15)
+12 verbose stack     at Cache.exec (C:\Users\DELL\AppData\Roaming\npm\node_modules\npm\lib\commands\cache.js:96:27)
+12 verbose stack     at C:\Users\DELL\AppData\Roaming\npm\node_modules\npm\lib\npm.js:251:63
+12 verbose stack     at Object.start (C:\Users\DELL\AppData\Roaming\npm\node_modules\npm\node_modules\proc-log\lib\index.js:101:21)
+12 verbose stack     at #exec (C:\Users\DELL\AppData\Roaming\npm\node_modules\npm\lib\npm.js:250:17)
+12 verbose stack     at Npm.exec (C:\Users\DELL\AppData\Roaming\npm\node_modules\npm\lib\npm.js:207:25)
+12 verbose stack     at module.exports (C:\Users\DELL\AppData\Roaming\npm\node_modules\npm\lib\cli\entry.js:65:29)
+13 error As of npm@5, the npm cache self-heals from corruption issues
+13 error   by treating integrity mismatches as cache misses.  As a result,
+13 error   data extracted from the cache is guaranteed to be valid.  If you
+13 error   want to make sure everything is consistent, use `npm cache verify`
+13 error   instead.  Deleting the cache can only make npm go slower, and is
+13 error   not likely to correct any problems you may be encountering!
+13 error
+13 error   On the other hand, if you're debugging an issue with the installer,
+13 error   or race conditions that depend on the timing of writing to an empty
+13 error   cache, you can use `npm install --cache /tmp/empty-cache` to use a
+13 error   temporary cache instead of nuking the actual one.
+13 error
+13 error   If you're sure you want to delete the entire cache, rerun this command
+13 error   with --force.
+14 verbose cwd E:\Shadow Fox\sproject--2
+15 verbose os Windows_NT 10.0.19045
+16 verbose node v20.15.0
+17 verbose npm  v10.8.3
+18 verbose exit 1
+19 verbose code 1
+20 error A complete log of this run can be found in: C:\Users\DELL\AppData\Local\npm-cache\_logs\2024-09-13T07_50_53_907Z-debug-0.log
